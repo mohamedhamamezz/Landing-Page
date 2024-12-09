@@ -86,7 +86,7 @@ section{
 
 
 .main{
-    background: url(/images/solar-panels-meadow\ 1.png);
+    background: url(Images/solar-panels-meadow\ 1.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -261,7 +261,7 @@ color: #333;
       .hero {
         /* text-align: center; */
         margin-bottom: 20px;
-        background-image: url(/images/back.png);
+        background-image: url(Images/back.png);
       }
   
       .hero h1 {
@@ -381,7 +381,7 @@ color: #333;
       /* repair */
       .repair-section {
         position: relative;
-        background-image: url('/images/8116\ 1\ \(1\).png'); 
+        background-image: url('Images/8116\ 1\ \(1\).png'); 
         background-size: cover;
         background-position: center;
         height: 60vh; 
@@ -461,14 +461,14 @@ color: #333;
     }
     .energy-innovators .container {
       display: grid;
-      grid-template-columns: 1fr 2fr; /* عمودان: الأول للمحتوى، والثاني للبطاقات */
+      grid-template-columns: 1fr 2fr; 
       gap: 40px;
     }
     
 
       .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* استجابة للشاشات */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   gap: 20px;
 }
 
